@@ -1,17 +1,20 @@
 # it_project_pong
-simple multiplayer pong game written in pygame and nodejs for IT classes
 
-needed dependencies for client: pygame, socketio
+Simple multiplayer pong game written in pygame and nodejs for IT classes.
 
-to run server you need to have nodejs with socketio and express modules installed aswell 
-and run for example from powershell using command:
-node server.js 
+Needed dependencies for client: Python+pygame+socketio.
+for server: nodejs+socketio+express.
 
-there are two variant of clients A and B, 
+To run server, run that from your shell:
+<code>node server.js <code>
+
+There are two variants of clients: A and B, 
 once you get proper communication you need to run both clients separetelty on two different machines
 
-in line 116 in both clients you need to write address of your server
+In line 116 in both clients you need to write address of your server.
 
-if you are running server from your home network you need to enable ports in firewall, router or sth. server is set on 3000 port
+If you are running server from your home network you need to enable ports in firewall, router or sth. 
+Server is set on 3000 port
 
-clients supports sounds files just uncomment what is between 127 and 132 lines and put your own files in main folder with code, names are written in code
+Clients supports sounds files, 
+to enable it just uncomment what is between 127 and 132 lines and put your own files in main folder with code, names are written in code.
