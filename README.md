@@ -6,7 +6,7 @@ Needed dependencies for client: Python+pygame+socketio.
 for server: nodejs+socketio+express.
 
 To run server, run that from your shell:
-<code>node server.js <code>
+<code>node server.js </code>
 
 There are two variants of clients: A and B, 
 once you get proper communication you need to run both clients separetelty on two different machines
