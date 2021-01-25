@@ -7,7 +7,8 @@ to run server you need to have nodejs with socketio and express modules installe
 and run for example from powershell using command:
 node server.js 
 
-there are two variant of clients A and B, you need to run every of that once to get properly communication
+there are two variant of clients A and B, 
+once you get proper communication you need to run both clients separetelty on two different machines
 
 in line 116 in both clients you need to write address of your server
 
