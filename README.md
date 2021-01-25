@@ -2,7 +2,7 @@
 
 Simple multiplayer pong game written in pygame and nodejs for IT classes.
 
-Needed dependencies for client: Python+pygame+socketio.
+Needed dependencies for client: Python+pygame+socketio,</br>
 for server: nodejs+socketio+express.
 
 To run server, run that from your shell:
